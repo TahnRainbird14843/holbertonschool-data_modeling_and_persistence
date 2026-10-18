@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS books (id INT UNIQUE, title TEXT NOT NULL, author TEXT NOT NULL, genre TEXT, price REAL, stock INT, published_year INT)

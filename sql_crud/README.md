@@ -1,0 +1,1 @@
+This directory is for learning the basic SQL CRUD operations
