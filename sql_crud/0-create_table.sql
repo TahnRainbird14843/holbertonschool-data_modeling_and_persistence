@@ -1,1 +1,8 @@
-CREATE TABLE IF NOT EXISTS books (id INTEGER NOT NULL UNIQUE, title TEXT NOT NULL, author TEXT NOT NULL, genre TEXT NOT NULL, price REAL NOT NULL, stock INTEGER NOT NULL, published_year INTEGER NOT NULL)
+CREATE TABLE books (
+    id INTEGER UNIQUE,
+    title TEXT NOT NULL,
+    author TEXT NOT NULL,
+    genre TEXT NOT NULL,
+    price REAL NOT NULL,
+    stock INTEGER NOT NULL,
+    published_year INTEGER NOT NULL);
