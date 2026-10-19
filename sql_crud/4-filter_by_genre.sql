@@ -1,1 +1,1 @@
-SELECT ALL title, price FROM books WHERE genre = "Tech"
+SELECT ALL title, author FROM books WHERE genre = "Tech" 
