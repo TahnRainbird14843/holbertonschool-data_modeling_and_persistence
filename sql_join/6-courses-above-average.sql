@@ -2,7 +2,7 @@ WITH course_enrollment AS (
     SELECT courses.title AS title, COUNT(*) AS count
     FROM courses
     LEFT JOIN enrollments
-    WHERE enrollments.course_id = courses.id
+    ON enrollments.course_id = courses.id
     GROUP BY courses.id
 )
 SELECT course_enrollment.title
