@@ -1,0 +1,1 @@
+SELECT ALL author, COUNT(*) FROM books GROUP BY author

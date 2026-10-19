@@ -1,0 +1,1 @@
+SELECT ALL AVG(price) FROM books GROUP BY genre

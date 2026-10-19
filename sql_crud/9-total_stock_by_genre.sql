@@ -1,0 +1,1 @@
+SELECT ALL SUM(stock) FROM books GROUP BY genre

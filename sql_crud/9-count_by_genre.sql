@@ -1,0 +1,1 @@
+SELECT ALL COUNT(*) FROM books GROUP BY genre
