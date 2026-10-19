@@ -1,4 +1,4 @@
-SELECT courses.title, COUNT(*)
+SELECT courses.title
 FROM courses
 LEFT JOIN enrollments
 ON courses.id = enrollments.course_id
