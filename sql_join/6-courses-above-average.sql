@@ -7,4 +7,5 @@ HAVING COUNT(*) > (
     SELECT COUNT(*) FROM enrollments
 ) / (
     SELECT COUNT(*) FROM courses
-);
+)
+ORDER BY courses.title
