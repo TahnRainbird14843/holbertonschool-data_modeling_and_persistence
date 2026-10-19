@@ -1,0 +1,1 @@
+SELECT ALL title, price, stock FROM books WHERE year_published > 1999 AND genre = "Tech"
