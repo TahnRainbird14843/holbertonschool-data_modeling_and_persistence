@@ -1,0 +1,1 @@
+UPDATE books SET price = 0.9 * price WHERE genre = "tech" AND stock > 5
