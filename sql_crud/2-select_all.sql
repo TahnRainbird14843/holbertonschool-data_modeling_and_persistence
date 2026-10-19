@@ -1,1 +1,1 @@
-SELECT ALL id, title, author, genre, price, stock, published_year FROM books
+SELECT ALL * FROM books

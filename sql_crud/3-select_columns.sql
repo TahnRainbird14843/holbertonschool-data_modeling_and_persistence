@@ -1,0 +1,1 @@
+SELECT ALL title, price FROM books
