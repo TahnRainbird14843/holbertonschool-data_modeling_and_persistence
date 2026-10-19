@@ -1,1 +1,1 @@
-SELECT ALL title, price, stock FROM books WHERE year_published > 1999 AND genre = "Tech"
+SELECT ALL title, price, stock FROM books WHERE published_year > 1999 AND genre = "Tech"
